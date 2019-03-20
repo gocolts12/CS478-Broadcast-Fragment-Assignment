@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">app3</string>
+    <string name="option_1">Launch Apps A1 and A2</string>
+    <string name="option_2">Exit</string>
+    <string-array name="phones">
+        <item>Samsung Galaxy S10</item>
+        <item>iPhone XS</item>
+        <item>Pixel 3 XL</item>
+    </string-array>
+    <drawable name="buy">
+        <item>@drawable/buypic</item>
+    </drawable>
+
+    <integer-array name="phoneImages">
+        <item>@drawable/s_10_thumb</item>
+        <item>@drawable/xs_thumb</item>
+        <item>@drawable/three_xl_thumb</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/phoneFragmentContainer"
+        android:layout_width="353dp"
+        android:layout_height="370dp"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/imageFragmentContainer"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"/>
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <ImageView
+            android:id="@+id/appBarImage"
+            android:layout_width="61dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="600dp" />
+
+    </android.support.v7.widget.Toolbar>
+
+</android.support.design.widget.CoordinatorLayout>
